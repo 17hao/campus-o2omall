@@ -8,7 +8,7 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd
     http://www.springframework.org/schema/mvc
-    http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd">
+    http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
 	<!-- 使用注解驱动加载SpringMVC的处理器映射器和处理器 适配器 -->
 	<mvc:annotation-driven />
@@ -27,5 +27,5 @@
 
 	<!-- 扫描controller包 -->
 	<context:component-scan
-		base-package="com.sqh.o2omall.controller"></context:component-scan>
+		base-package="com.sqh.o2omall.web"></context:component-scan>
 </beans>
