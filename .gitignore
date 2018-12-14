@@ -16,3 +16,5 @@ target/
 *.ipr
 *.iml
 *.iws
+
+/catalina.base_IS_UNDEFINED/*

@@ -9,7 +9,7 @@ import java.util.Date;
  * @date 2018/12/13
  */
 public class PersonInfo {
-	private Long useId;
+	private Long userId;
 	private String name;
 	private String profileImg;
 	private String email;
@@ -22,12 +22,12 @@ public class PersonInfo {
 	private Date createTime;
 	private Date lastEditTime;
 
-	public Long getUseId() {
-		return useId;
+	public Long getUserId() {
+		return userId;
 	}
 
-	public void setUseId(Long useId) {
-		this.useId = useId;
+	public void setUserId(Long useId) {
+		this.userId = useId;
 	}
 
 	public String getName() {
