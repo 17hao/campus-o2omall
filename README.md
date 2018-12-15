@@ -1,9 +1,13 @@
-### glowing-waffle
+基于SSM框架的校园商铺的店铺管理模块
+===
 
-# 基于SSM框架的o2o商城
+Spring4.3.7   Mybatis3.4.2  MySQL5.7   Maven3.5.4 
+---
 
-
-## Spring4.3.7  
-## Mybatis3.4  
-## Maven3.5
-## MySQL5.7
+搭建过程
+---
+1.搭建环境    
+2.设计数据库,创建实体类  
+3.配置Logback  
+4.店铺注册功能  
+5.店铺更新功能  
