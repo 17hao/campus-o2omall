@@ -9,6 +9,12 @@ import com.sqh.o2omall.dao.AreaDao;
 import com.sqh.o2omall.entity.Area;
 import com.sqh.o2omall.service.AreaService;
 
+/**
+ * 区域业务接口实现
+ *
+ * @author sqh
+ * @date 2018/12/25
+ */
 @Service
 public class AreaServiceImpl implements AreaService {
 	@Autowired

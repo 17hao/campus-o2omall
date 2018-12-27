@@ -3,6 +3,7 @@ package com.sqh.o2omall.service.impl;
 import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.sqh.o2omall.dao.ShopDao;
@@ -13,6 +14,13 @@ import com.sqh.o2omall.enums.ShopStateEnum;
 import com.sqh.o2omall.exceptions.ShopOperationException;
 import com.sqh.o2omall.service.ShopService;
 
+/**
+ * 店铺业务接口实现
+ *
+ * @author sqh
+ * @date 2018/12/25
+ */
+@Service
 public class ShopServiceImpl implements ShopService {
 	@Autowired
 	private ShopDao shopDao;
